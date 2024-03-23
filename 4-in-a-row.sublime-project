@@ -7,7 +7,7 @@
 	],
 	"build_systems":
 		{
-			"name": "Run",
+			"name": "debug",
 			"working_dir": "${project_path}",
 			"cmd": "make",
 			"selector": "source.c++",
