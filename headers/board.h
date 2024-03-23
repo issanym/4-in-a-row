@@ -1,15 +1,15 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef BOARD_H
+#define BOARD_H
 
 using namespace std;
 
-class header
+class board
 {
 private:
 
 public:
-    header(); // instanciate object
+    board(); // instanciate object
     
 };
 
-#endif // HEADER_H
+#endif // BOARD_H

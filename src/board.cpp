@@ -1,8 +1,8 @@
-#include "header.h"
+#include "board.h"
 
 using namespace std;
 
-header::header()
+board::board()
 {
   
 }

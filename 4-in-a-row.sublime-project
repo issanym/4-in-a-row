@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "bin/.."
+		}
+	],
+	"build_systems":
+		{
+			"name": "Run",
+			"working_dir": "${project_path}",
+			"cmd": "make",
+			"selector": "source.c++",
+			"shell": true
+		}
+}
