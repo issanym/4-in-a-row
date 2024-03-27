@@ -12,10 +12,11 @@ BINDIR := bin
 # Files
 SRCS := $(wildcard $(SRCDIR)/*.cpp)
 OBJS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SRCS:.cpp=.o))
-TARGET := $(BINDIR)/shop
+TARGET := $(BINDIR)/4-in-a-row
 
 # Targets
 all: $(TARGET)
+	./$(TARGET)
 
 $(TARGET): $(OBJS)
 	@mkdir -p $(BINDIR)
